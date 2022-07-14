@@ -1,0 +1,6 @@
+[submodule "LLSTauTools"]
+	path = LLSTauTools
+	url = https://github.com/shedprog/LLSTauTools
+[submodule "DisTauMLTools"]
+	path = DisTauMLTools
+	url = https://github.com/shedprog/DisTauMLTools
