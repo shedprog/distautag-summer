@@ -51,13 +51,15 @@ source env.sh conda
 
 ## Understanding the input
 
+### Very minimal discription
+
 This project aims at optimization of the identification of the displaced taus that are daughters of long-lived stau (susy-tau) particles:
 
 <img
   src="docs/img/stau.png"
   alt="Alt text"
   title="stau"
-  style="display: inline-block; margin: 0 auto; max-width: 400px">
+  style="display: inline-block; margin: 0 auto; max-width: 200px">
 
 More information on tau particle reconstruction and identification can be found here: https://arxiv.org/pdf/1809.02816.pdf
 
@@ -76,7 +78,7 @@ The most significant background that fakes tau-based jets are quarks/gluons/elec
   src="docs/img/tausignature_trans.png"
   alt="Alt text"
   title="stau"
-  style="display: inline-block; margin: 0 auto; max-width: 400px">
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
 
 Additionally, in our case signal jets will be displaced corresponding to the center of coordinates
 
@@ -84,5 +86,10 @@ Additionally, in our case signal jets will be displaced corresponding to the cen
   src="docs/img/jet_signal_bkgr.png"
   alt="Alt text"
   title="stau"
-  style="display: inline-block; margin: 0 auto; max-width: 700px">
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+More information about definition of signal and background classes can be found in the following presentation: https://indico.cern.ch/event/1177869/contributions/4947705/attachments/2476089/4249391/QCDvsTau_tagging_v3.pdf
+
+The data with the mixed signal and background classes can be found here (to be coppied): `/nfs/dust/cms/user/mykytaua/softDeepTau/RecoML/DisTauTag/TauMLTools/FlatMerge-output-v3`
+
 
